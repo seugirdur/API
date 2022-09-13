@@ -1,0 +1,1 @@
+module.exports = "Do meu m[odulo"

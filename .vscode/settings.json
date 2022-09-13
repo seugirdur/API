@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "139.177.199.178",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "corleone",
+            "database": "test",
+            "username": "backend",
+            "password": "agathusia"
+        }
+    ]
+}

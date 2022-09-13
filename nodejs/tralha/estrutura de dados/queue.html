@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+    
+    class Queue {
+        constructor() {
+            this.data = []
+
+        }
+
+        enqueue(item) {
+            this.data.push(item)
+            console.log(`${item} chegou na fila!`)
+        }
+
+        dequeue() {
+            const item = this.data.shift()
+            console.log(`${item} saiu da fila!`)
+        }
+    }
+    
+
+    const fila = new Queue()
+
+    fila.enqueue('mariana')
+    fila.enqueue('gabriel')
+    fila.enqueue('joa')
+    fila.dequeue()
+    fila.dequeue()
+    fila.dequeue()
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

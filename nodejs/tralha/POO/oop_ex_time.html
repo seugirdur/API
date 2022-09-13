@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        //estruturado
+        var valorHora = 50
+        var tempoEstimado = 20
+        var desconto = valorHora * tempoEstimado * (10/100)
+        var custoEstimado = valorHora * tempoEstimado - desconto
+        console.log(custoEstimado)
+
+        //oop
+        const job = new Job()
+        job.hourValue = 50
+        job.estimatedTime = 20
+        job.discount = 10
+        const estimatedCost = job.calculateEstimativa()
+        console.log(custoEstimado)
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

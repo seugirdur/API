@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        class Poligono {
+            constructor(altura, largura) {
+                this.altura = altura
+                this.largura = largura
+            }
+
+            get area() {
+                return this.#calcularArea()
+
+            }
+
+            #calcularArea() {
+                return this.altura * this.largura
+            }
+        }
+
+        let poligono = new Poligono(50, 60)
+        console.log(poligono)
+        console.log(poligono.area)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
